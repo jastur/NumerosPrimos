@@ -6,7 +6,7 @@ package Com.primos;
  */
 public class BuscarNumerosPrimos {
 
-    static boolean primo(int x) {
+    static boolean primo(int x) {  //Comprueba si numero es Primo
         for (int i = 2; i < ((x / 2) + 1); i++) {
             if ((x % i) == 0) {
                 return false;
